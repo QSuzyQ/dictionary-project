@@ -1,4 +1,5 @@
 import Dictionary from "./Dictionary";
+import logo from "./book.png";
 import "./App.css";
 
 export default function App() {
@@ -6,7 +7,9 @@ export default function App() {
     <div className="App">
       <div className="App-background-overlay">
         <div className="container">
-          <header className="App-header">Hello</header>
+          <header className="App-header">
+            <img src={logo} alt="Logo" className="logo" />;
+          </header>
           <main>
             <Dictionary defaultKeyword="knowledge" />
           </main>
