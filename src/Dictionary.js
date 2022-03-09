@@ -16,6 +16,8 @@ export default function Dictionary(props) {
     // documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
+
+    const pexelsApiKey = `563492ad6f9170000100000141a6ea591a984fc18821c572796cf82e`;
   }
 
   function handleSubmit(event) {
