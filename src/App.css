@@ -3,11 +3,16 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-a {
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.App a {
   color: #0d8384;
 }
 
-main {
+.App main {
   margin: 30px 0;
 }
 
