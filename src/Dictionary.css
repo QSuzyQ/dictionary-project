@@ -1,8 +1,3 @@
-.Dictionary .form {
-  display: block;
-  text-align: center;
-}
-
 .Dictionary input {
   width: 100%;
   padding: 6px;
@@ -16,4 +11,15 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   margin: 20px 0;
   padding: 30px;
+}
+
+.Dictionary .form {
+  display: block;
+  text-align: center;
+}
+
+.Dictionary .hint {
+  color: rgba(0, 0, 0, 0.6);
+  font-style: italic;
+  font-size: 0.8rem;
 }
