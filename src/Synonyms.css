@@ -6,5 +6,9 @@
 .Synonyms li {
   display: inline-block;
   padding-right: 15px;
-  text-decoration: none;
+  font-style: italic;
+}
+.Synonyms .synonymHeading {
+  font-style: italic;
+  font-weight: 700;
 }

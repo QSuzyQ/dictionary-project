@@ -1,10 +1,15 @@
 .Meaning h3 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 1.5;
 }
 
+.Meaning .results {
+  margin-bottom: 30px;
+}
+
 .Meaning .definition {
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
 }
