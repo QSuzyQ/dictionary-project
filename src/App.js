@@ -28,7 +28,21 @@ export default function App() {
             <Dictionary defaultKeyword="knowledge" />
           </main>
           <footer className="App-footer">
-            <small>Coded by Suzana</small>
+            <small>
+              <a href="/" target="_blank" rel="noreferrer">
+                Open-source
+              </a>{" "}
+              code | Made by{" "}
+              <a href="/" target="_blank" rel="noreferrer">
+                {" "}
+                Suzana
+              </a>{" "}
+              | Hosted on{" "}
+              <a href="/" target="_blank" rel="noreferrer">
+                {" "}
+                Netlify
+              </a>
+            </small>
           </footer>
         </div>
       </div>
