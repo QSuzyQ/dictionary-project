@@ -1,19 +1,22 @@
 .Phonetic {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-.Phonetic a {
+.Phonetic-button {
+  color: #0d8384;
+  background-image: url("./volume-high-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
   border: 1px solid #0d8384;
-  text-decoration: none;
   margin-right: 10px;
   padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: bold;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
   transition: all 150ms ease-in-out;
 }
-
-.Phonetic a:hover {
+.Phonetic-button:hover {
   background-color: #0d8384;
   color: #d8ebff;
 }
