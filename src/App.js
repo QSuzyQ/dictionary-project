@@ -29,16 +29,28 @@ export default function App() {
           </main>
           <footer className="App-footer">
             <small>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/QSuzyQ/dictionary-project"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Open-source
               </a>{" "}
               code | Made by{" "}
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://app.netlify.com/sites/thirsty-lamport-9688ca"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 Suzana
               </a>{" "}
               | Hosted on{" "}
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://app.netlify.com/sites/eager-knuth-b0e80e"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 Netlify
               </a>
