@@ -4,18 +4,15 @@
 
 .Phonetic-button {
   color: #0d8384;
-  background-image: url("./volume-high-solid.svg");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: center;
+  background-color: rgba(255, 255, 255, 0);
   border: 1px solid #0d8384;
   margin-right: 10px;
-  padding: 10px 20px;
   border-radius: 50%;
   height: 40px;
   width: 40px;
   transition: all 150ms ease-in-out;
 }
+
 .Phonetic-button:hover {
   background-color: #0d8384;
   color: #d8ebff;
