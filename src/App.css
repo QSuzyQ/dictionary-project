@@ -1,11 +1,8 @@
 body {
-  background-color: #efefef;
   font-family: "Quicksand", sans-serif;
-}
-
-.App {
-  max-width: 960px;
-  margin: 0 auto;
+  background-color: #efefef;
+  background: url(./background.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .App a {
@@ -16,12 +13,31 @@ body {
   margin: 30px 0;
 }
 
+.App-background-overlay {
+  margin: 0 auto;
+  background-image: linear-gradient(
+    rgba(171, 172, 165, 0.63),
+    rgba(247, 247, 247, 0.233)
+  );
+}
+
+.App .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App .logo {
   height: 5rem;
 }
 
-.App-header,
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  padding-bottom: 30px;
+}
+
+.App-header {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 30px;
 }
