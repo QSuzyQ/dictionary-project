@@ -38,7 +38,7 @@ export default function App() {
               </a>{" "}
               code | Made by{" "}
               <a
-                href="https://app.netlify.com/sites/thirsty-lamport-9688ca"
+                href="https://thirsty-lamport-9688ca.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
