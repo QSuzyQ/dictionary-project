@@ -61,3 +61,13 @@ body {
 .App-header-text strong {
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  .App-header-text {
+    font-size: 1rem;
+  }
+
+  .App-header-text strong {
+    font-size: 0.8rem;
+  }
+}
