@@ -8,7 +8,8 @@ export default function App() {
       <div className="App-background-overlay">
         <div className="container">
           <header className="App-header">
-            <section className="intro d-flex">
+            <section className="intro">
+              <img src={logo} alt="Nikola Tesla" className="logo" />
               <span className="App-header-text">
                 “My brain is only a receiver, in the Universe there is a core
                 from which we obtain knowledge, strength and inspiration. I have
@@ -17,11 +18,6 @@ export default function App() {
                 <br />
                 <strong>Nikola Tesla</strong>
               </span>
-              <img
-                src={logo}
-                alt="Nikola Tesla"
-                className="logo justify-content-end"
-              />
             </section>
           </header>
           <main>
